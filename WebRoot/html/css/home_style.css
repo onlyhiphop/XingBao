@@ -1,0 +1,388 @@
+*{margin: 0;padding: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;text-decoration: none;list-style: none;
+    list-style-type: none;}
+.wp{width:960px;margin: 0 auto;}
+.z{float:left;}
+.y{float: right;}
+.cl{clear: both;}
+body{font: 14px/24px '微软雅黑'}
+.dh{
+	transition: 0.8s ease;
+	-webkit-transition: 0.8s ease;
+	-moz-transition:0.8s ease;
+	-ms-transition: 0.8s ease;
+}
+img{
+	border: none;
+}
+
+.section{
+    position:relative;
+    background-color:#fff;
+    overflow:hidden;
+    text-align:center;
+}
+.section1{
+	background: url(../img/login_bg_1.jpg) no-repeat center;
+    background-size:cover;
+}
+.section1 .section1_top{
+	height: 100px;
+}
+.section1 .section1_top img{
+	height: 50px;
+	width: auto;
+	margin-left: -1100px;
+	margin-top: 15px;
+}
+.section1 .section1_top a{
+	width: 80px;
+	height: 36px;
+	border: 1px solid white;
+	margin-right: 50px;
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 3px;
+	color: white;
+	font-weight:500;
+	font-size: 18px;
+}
+.section1 .section1_top a:hover{
+	background-color: rgb(247,81,19);
+	border: none;
+}
+.section1 .section1_title{
+	height: 120px;
+}
+.section1 .section1_title h1{
+	color: white;
+	font-size: 40px;
+}
+.section1 .section1_title p{
+	color: white;
+	font-size: 23px;
+	margin-top: 40px;
+}
+.section1 .section1_regist{
+	height: 280px;
+	width: 900px;
+	margin-left: 520px;
+	margin-top: 50px;
+}
+
+.section1 .section1_regist form{
+	/*width:700px;*/
+	/*margin:20px 0 0 200px;*/
+}
+.section1 .section1_regist p{
+	overflow:hidden;
+}
+.section1 .section1_regist input{
+	width:203px;
+	line-height:18px;
+	padding:5px;
+	border:1px solid #ccc;
+	margin-top:15px;
+	margin-left: 30px;
+	outline:none;
+	float:left;
+}
+.section1 .section1_regist label{
+	width:80px;
+	line-height:60px;
+	font-size:18px;
+	text-align:right;
+	float:left;
+}
+
+.section1 .section1_regist #userName{
+	color:#ccc;
+}
+
+.section1 .section1_regist .msg{
+	margin:18px 100px 0 5px;
+	float: left;
+	/*position:absolute;*/
+}
+
+.section1 .section1_regist .submitBtn input{
+	width:200px;
+	height:38px;
+	font-size:16px;
+	line-height:30px;
+	background:rgb(247,81,19);
+	margin-left:110px;
+	margin-top:20px;
+	text-align:center;
+	color:white;
+	border:0px;
+	font: 14px/24px '微软雅黑'
+}
+
+.section1 .section1_regist .submitBtn input:hover{
+	background-color: #ff5b5b;
+	cursor: pointer;
+}
+
+.section1 .section1_login{
+}
+.section1 .section1_login p{
+	color: #ecdb5a;
+	font-size: 13px;
+}
+.section2{
+    background: url(../img/login_bg_2.jpg) no-repeat center;
+    background-size:cover;
+}
+.section2 .section2_left{
+	width: 850px;
+	height: 500px;
+	margin-top: 150px;
+	margin-left: 135px;
+	float: left;
+}
+.section2 .section2_left p{
+	float: left;
+	font-size: 25px;
+}
+.section2 .section2_left .paragraph{
+	width: 800px;
+	height: 180px;
+	margin-top: 120px;
+	margin-left: 50px;
+	overflow: hidden;
+}
+.section2 .section2_left .paragraph p{
+	text-align: left;
+	line-height: 130%;
+	overflow: hidden;
+}
+.section2 .section2_left .paragraph a{
+	font-size: 15px;
+	color: white;
+}
+.section2 .section2_left .paragraph a:hover{
+	color: black;
+}
+.section2 .section2_right{
+	width: 100px;
+	height: 300px;
+	float: right;
+	margin-top: 250px;
+	margin-right: 250px;
+}
+.section2 .section2_right p{
+	font-size: 18px;
+	margin-top: 25px;
+}
+.section2 .section2_right a{
+	color: white;
+}
+.section2 .section2_right a:hover{
+	color: coral;
+	cursor: pointer;
+}
+.section3{
+    background: url(../img/login_bg_3.jpg) no-repeat center;
+    background-size:cover;
+}
+
+.section3 #container { 
+	width: 100%; 
+	height: 350px; 
+	overflow: hidden; 
+	margin-top: 200px;
+	position: relative;
+}
+.section3 #list { 
+	width: 6040px; 
+	height: 417px; 
+	position: absolute; 
+	z-index: 1;
+}
+
+.section3 #list ul li{
+	float: left;
+	margin-top: 7px;
+	width: 350px;
+	height: 350px;
+	margin-left: 28px;
+	overflow: hidden;
+}
+.section3 #list img { 
+	float: left;
+	width: 190px;
+	margin-right: 10px;
+	transition: 0.3s linear;
+	-webkit-transition: 0.3s linear;
+	-moz-transition:0.3s linear;
+	-ms-transition: 0.3s linear;
+}
+.section3 #list img:hover{
+	transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+	-moz-transform: scale(1.1);
+}
+.section3 #list .list_right{
+	
+}
+.section3 #list .list_right .p1{
+	font-size: 23px;
+}
+.section3 #list .list_right a{
+	color: #000000;
+}
+.section3 #list .list_right a:hover{
+	color: coral;
+}
+.section3 #list .list_right .p2{
+	font-size: 12px;
+	font-weight: 300;
+}
+.section3 #list .list_right p{
+	text-align: left;
+	margin-bottom: 10px;
+}
+.section3 .arrow { 
+	cursor: pointer; 
+	display: none; 
+	line-height: 39px; 
+	text-align: center; 
+	font-size: 36px; 
+	font-weight: bold; 
+	width: 50px; 
+	height: 50px;  
+	position: absolute; 
+	z-index: 2; 
+	top: 150px; 
+	background-color: RGBA(0,0,0,.3); 
+	color: #fff;
+}
+.section3 .arrow:hover { 
+	background-color: RGBA(0,0,0,.7);
+}
+.section3 #container:hover .arrow { 
+	display: block;
+}
+.section3 #prev { 
+	left: 20px;
+}
+.section3 #next { 
+	right: 20px;
+}
+.section3 .section3_bottom{
+	margin-top: 15px;
+}
+.section3 .section3_bottom p{
+	margin-bottom: 8px;
+	color: #efa030;
+}
+
+
+
+
+
+.section4{
+    background: url(../img/login_bg_4.jpg) no-repeat center;
+    background-size:cover;
+}
+.section4 .section4_top{
+	height: 450px;
+	margin-left: 15%;
+	margin-top: 8%;
+	
+	/*transition: 0.4s ease;
+	-webkit-transition: 0.4s ease;
+	-moz-transition:0.4s ease;
+	-ms-transition: 0.4s ease;*/
+}
+.section4 .section4_top .section4_top_1{
+	background: url(../img/shouye_book1.png) no-repeat center;
+	background-size: cover;
+}
+.section4 .section4_top .section4_top_2{
+	background: url(../img/shouye_book2.png) no-repeat center;
+	background-size: cover;
+}
+.section4 .section4_top .section4_top_3{
+	background: url(../img/shouye_book3.png) no-repeat center;
+	background-size: cover;
+}
+.section4 .section4_top .section4_top_4{
+	background: url(../img/shouye_book4.png) no-repeat center;
+	background-size: cover;
+}
+.section4 .section4_top .section4_top_5{
+	background: url(../img/shouye_book5.jpg) no-repeat center;
+	background-size: cover;
+}
+.section4 .section4_top ul li{
+	width: 200px;
+	height: 300px;
+	color: #fff;
+	border: 1px solid white;
+	float: left;
+	
+}
+.section4 .section4_top ul li p{
+	font-size: 26px;
+	margin-top: 130px;
+}
+.section4 .section4_top .section4_top_p{
+	height: 250px;
+	margin-top: 145px;
+	display: none;
+}
+
+.section4 .section4_top .section4_top_p p{
+	margin-top: 10px;
+}
+.section4 .section4_top .section4_top_p a{
+	font-size: 16px;
+	color: white;
+}
+.section4 .section4_top .section4_top_p a:hover{
+	color: coral;
+}
+.section4 .section4_top ul li:hover p{
+	margin-top: 30px;
+}
+.section4 .section4_top ul li:hover .section4_top_p{
+	margin-top: 15px;
+	display: block;
+}
+.section4 .section4_top ul li:hover .section4_top_p p{
+	margin-top: 10px;
+}
+.person_bottom{
+	height: 150px;
+	width: 100%;
+	margin-top: 30px;
+	border:1px solid #000000;
+	background-color: #000000;
+}
+.person_bottom .contact{
+	height: 20px;
+	margin-top: 10px;
+}
+
+.contact .contact_z span{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-left: 300px;
+	
+}
+.contact .contact_y span{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-right: 250px;
+}
+.person_bottom .copyright{
+	height: 20px;
+	margin-top: 80px;
+}
+.copyright span{
+	color: #FFFFFF;
+	font-size: 10px;
+	
+}

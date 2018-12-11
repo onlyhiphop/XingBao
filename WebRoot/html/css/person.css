@@ -1,0 +1,353 @@
+*{margin: 0;padding: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;text-decoration: none;list-style: none;
+    list-style-type: none;}
+.wp{width:1200px;margin: 0 auto;}
+.jz{margin: 0 auto;}
+.z{float:left;}
+.y{float: right;}
+.cl{clear: both;}
+body{
+	font: 14px/24px '微软雅黑';
+	background:url(../img/aa.png) no-repeat,url(../img/body-bg.gif);
+	background-size: 100% 620px;
+	/*background-size: 100% 100%;
+	background-attachment: fixed;*/
+}
+/*img{
+	border: none;
+}
+
+.person_top{
+	height: 200px;
+	border-bottom: dashed aqua;
+}
+.logos_top{
+	
+	height: 140px;
+	border-bottom: dashed aqua;
+}
+.logo{
+	width: 348px;
+	height: 156px;
+	background: red;
+}
+
+.search{
+	width: 350px;
+	height: 156px;
+	background: red;
+}
+.logos_bottom{
+	width: 423px;
+	height: 63px;
+	background: blueviolet;
+}
+.logos_bottom span{
+	width: 423px;
+	margin-left: 9px;
+}
+.logos_bottom span a{
+	text-decoration: none;
+	color: #fff;
+	font-size:16px;
+	margin-left: 7px;
+}
+.logos_bottom span a:hover{
+	color: blue;
+}
+.logos_bottom_y{
+	width: 300px;
+}
+.logos_bottom_y a{
+	text-decoration: none;
+	color: #fff;
+	font-size:16px;
+	margin-left: 7px;
+}
+.logos_bottom_y a:hover{
+	color: blue;
+}
+.logos_bottom_y button{
+	width: 80px;
+	height: 35px;
+	background-color: antiquewhite;
+	border: 0;
+	cursor: pointer;
+	margin-left: 9px;
+}
+.logos_bottom_y button a:hover{
+	color: white;
+}*/
+
+/***************************************/
+.index_top{
+	width:100%;
+	height: 130px;
+	border-bottom: solid darkred;
+}
+.index_top .logo{
+	width: 220px;
+	height: 100px;
+	margin-top: 15px;
+}
+.index_top .logo img{
+	width: 400px;
+	height: 100px;
+}
+.gongneng{
+	margin-left: 200px;
+}
+.gongneng .guapai{
+	margin-top: 10px;
+	width: 120px;
+	height: 90px;
+	background: url(../img/library_menu.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	line-height: 120px;
+}
+
+.gongneng a{
+	/*color:#0000FF;*/
+	color: rgb(141,39,95);
+	font-size: 18px;
+}
+.gongneng a:hover{
+	color: yellow;
+}
+.gongneng li{
+	float: left; 
+	list-style: none;
+	color: #000000;
+	margin-left: 20px;
+}
+.index_bottom_search {
+    width: 180px;
+    height: 35px;
+    border:1px solid white;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+.index_bottom_search input {
+	outline: none;
+    border: none;
+    height: 30px;
+    width: 130px;
+    line-height: 30px;
+    margin-left: 16px;
+    margin-top: 1px;
+    font-size: 14px;
+    background: none;
+}
+
+.index_bottom_search .search-btn {
+	border: none;
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    background: url(../img/search.png) no-repeat;
+}
+/***************************************/
+.yonghu{
+	width: 1200px;
+	height: 30px;
+	border-bottom: 1px dashed  darkred;
+	/*background: rgb(255,51,0);*/
+	/*background: rgb(141,39,95);*/
+}
+.yh_left{
+	width: 800px;
+	height: 100%;
+}
+.yh_left img{
+	clear: both;
+	margin:3.5px 10px 3.5px 10px;
+}
+#remen-img{
+	width: 50px;
+	height: 100%;
+	float: left;
+}
+#remen{
+	width: 262px;
+	height: 100%;
+	float: left;
+	line-height: 30px;
+	overflow: hidden;
+}
+
+
+.yh_left a{
+	font-size: 15px;
+	text-decoration: none;
+	color: rgb(0,0,255);
+}
+.yh_right{
+	width: 340px;
+	height: 100%;
+}
+.current-yh a{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight:bold;
+	text-decoration: none;
+	line-height: 30px;
+	margin-right: 10px;
+	color: rgb(180,255,255);
+}
+.current-yh a:hover{
+	color: #00FFFF;
+}
+.zj-hidden{
+	background: rgb(218,112,214);
+	width: 170px;
+	height: 210px;
+	display: none;
+	position: absolute;
+	}
+.zjyd:hover .zj-hidden{
+	display: block;
+}
+.recent-book{
+	margin: 0 auto;
+	width: 150px;
+	height: 60px;
+}
+.recent-book h5{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 6px;
+}
+}
+.recent-book ul{
+	width: 150px;
+	height: 40px;
+}
+.recent-book ul li{
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	max-width: 150px;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.recent-book ul li a{
+	font-size: 12px;
+	line-height: 12px;
+}
+/***************************************/
+
+
+
+.person_center{
+	height: 900px;
+}
+.person_center_z{
+	width: 230px;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+.person_center_z .menu-header {
+    font-size: 21px;
+    line-height: 24px;
+    color: #1d2be5;
+    font-weight: 800;
+  /*  border-bottom: 1px solid #b7e8ff;*/
+    padding-bottom: 8px;
+    position: relative;
+    padding-left: 33px;
+  /*  background: url(../images/icon.png) 0 -114px no-repeat;*/
+    width: 179px;
+}
+.personal-center-lmenu{
+	height: 700px;
+}
+ul{
+    list-style: none;
+    list-style-type: none;
+}
+
+.personal-center-lmenu li {
+    margin-top: 30px;
+    height: auto;
+    background: rgba(237,233,224,0.8);
+}
+.personal-center-lmenu li:first-child {
+    margin-top: 0;
+}
+
+ul.personal-center-lmenu li a{
+    padding: 0;
+    color: #000;
+    text-indent: 22px;
+    height: 38px;
+    line-height: 38px;
+    text-decoration: none;
+    display: block;
+}
+ul.personal-center-lmenu li .pc-menu-label{
+    padding: 0;
+    text-indent: 22px;
+    color: #fff;
+    height: 38px;
+    line-height: 38px;
+    background: rgba(27,218,20,0.6);
+}
+
+ul.personal-center-lmenu li .sub-item{
+	height: 43px;
+    line-height: 43px;
+    text-indent: 22px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    cursor: pointer;
+}
+ul.personal-center-lmenu li .sub-item a:hover{
+	color: #00FFFF;
+}
+
+.person_center_y{
+	float: left;
+    width: 830px;
+    margin-left: 40px;
+    margin-top: 50px;
+    height: 850px;
+    background: rgba(237,233,224,0.8);
+}
+
+.person_bottom{
+	height: 150px;
+	width: 100%;
+	margin-top: 30px;
+	border:1px solid #000000;
+	background-color: #000000;
+}
+.person_bottom .contact{
+	height: 20px;
+	margin-top: 10px;
+}
+
+.contact .contact_z span{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-left: 300px;
+	
+}
+.contact .contact_y span{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-right: 250px;
+}
+.person_bottom .copyright{
+	height: 20px;
+	margin-top: 80px;
+	margin-left: 600px;
+}
+.copyright span{
+	color: #FFFFFF;
+	font-size: 10px;
+	
+}

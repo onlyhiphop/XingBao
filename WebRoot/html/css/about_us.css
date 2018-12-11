@@ -1,0 +1,232 @@
+*{margin: 0;padding: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;text-decoration: none;list-style: none;
+    list-style-type: none;}
+
+body{
+	width: 100%;
+	/*background: url("../img/bg.jpg");*/
+	/*background-size:cover; 	  规定背景图像的尺寸*/
+	/*background-repeat: no-repeat;*/
+	font-family: "微软雅黑";
+	background:url(../img/aa.png) no-repeat,url(../img/body-bg.gif);
+	background-size: 100% 620px;
+}
+
+.jz{
+	margin: 0 auto;
+}
+.left{ float: left;}
+.right{ float: right;}
+.clear{ clear: both;}
+
+.wp{width:1200px;margin: 0 auto;}
+.z{float:left;}
+.y{float: right;}
+.cl{clear: both;}
+
+.index_top{
+	width:100%;
+	height: 130px;
+	border-bottom: solid darkred;
+	/*background: url(../img/library_top_bg.jpg) ;
+	background-size: 100% 100%;*/
+}
+.index_top .logo{
+	width: 220px;
+	height: 100px;
+	margin-top: 15px;
+}
+.index_top .logo img{
+	width: 400px;
+	height: 100px;
+}
+.gongneng{
+	margin-left: 200px;
+}
+.gongneng .guapai{
+	margin-top: 10px;
+	width: 120px;
+	height: 90px;
+	background: url(../img/library_menu.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	line-height: 120px;
+}
+
+.gongneng a{
+	/*color:#0000FF;*/
+	color: rgb(141,39,95);
+	font-size: 18px;
+}
+.gongneng a:hover{
+	color: yellow;
+}
+.gongneng li{
+	float: left; 
+	list-style: none;
+	color: #000000;
+	margin-left: 20px;
+}
+.index_bottom_search {
+    width: 180px;
+    height: 35px;
+    border:1px solid /*#999999*/white;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+.index_bottom_search input {
+	outline: none;
+    border: none;
+    height: 30px;
+    width: 130px;
+    line-height: 30px;
+    margin-left: 16px;
+    margin-top: 1px;
+    font-size: 14px;
+    background: none;
+    /*color: #000000;*/
+}
+
+.index_bottom_search .search-btn {
+	border: none;
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    background: url(../img/search.png) no-repeat;
+}
+/***************************************/
+.yonghu{
+	width: 1200px;
+	height: 30px;
+	border-bottom: 1px dashed  darkred;
+	/*background: rgb(255,51,0);*/
+	/*background: rgb(141,39,95);*/
+}
+.yh_left{
+	width: 800px;
+	height: 100%;
+}
+.yh_left img{
+	clear: both;
+	margin: 3.5px 10px 3.5px 10px;
+}
+#remen-img{
+	width: 50px;
+	height: 100%;
+	float: left;
+}
+#remen{
+	width: 262px;
+	height: 100%;
+	float: left;
+	line-height: 30px;
+	overflow: hidden;
+}
+
+
+.yh_left a{
+	color: #0000FF;
+	font-size: 15px;
+	text-decoration: none;
+}
+.yh_right{
+	width: 280px;
+	height: 100%;
+}
+.yh_right span img{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 3px;
+}
+#yhdr_jsp{
+	margin-left:78px;
+}
+#yhdr{
+	
+}
+#yhdr a{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight:bold;
+	text-decoration: none;
+	line-height: 30px;
+	margin-right: 10px;
+	color: rgb(180,255,255);
+}
+#yhdr_jsp a{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight:bold;
+	text-decoration: none;
+	line-height: 30px;
+	margin-right: 10px;
+	color: rgb(180,255,255);
+}
+#yhdr a:hover{
+	color: #00FFFF;
+}
+#yhdr_jsp a:hover{
+	color: #00FFFF;
+}
+
+.about_us_center{
+	width: 900px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 350px;
+	background-color: rgba(230,216,200,0.8);
+}
+.about_us_center .about_us_title{
+	height: 80px;
+	margin-left: 30px;
+}
+.about_us_center .about_us_title p{
+	font-size: 25px;
+	padding-top: 30px;
+}
+.about_us_center .about_us_z,.about_us_contact{
+	height: 130px;
+	width: 800px;
+	margin-left: 30px;
+}
+.about_us_center p{
+	margin-top: 10px;
+	font-size: 15px;
+}
+/*****************************   底部*/
+.person_bottom{
+	height: 150px;
+	width: 100%;
+	margin-top: 30px;
+	border:1px solid #000000;
+	background-color: #000000;
+}
+.person_bottom .contact{
+	height: 20px;
+	margin-top: 10px;
+}
+
+.contact .contact_z span{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-left: 300px;
+	
+}
+.contact .contact_y span{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-right: 250px;
+}
+.person_bottom .copyright{
+	height: 20px;
+	margin-top: 80px;
+	margin-left: 600px;
+}
+.copyright span{
+	color: #FFFFFF;
+	font-size: 10px;
+	
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的资料</title>
+		<link rel="stylesheet" type="text/css" href="css/person_iframe.css"/>
+	</head>
+	<body>
+		<div class="right-header">我的信息</div>
+		<form action="index.html" method="get">
+			<table border="0" cellspacing="0" cellpadding="0" class="myImformation">
+			<tr>
+				<td class="basic_z">
+					<span>头像:</span>
+				</td>
+				<td class="photo_c">
+					<img src="img/info_1.jpg"/>
+					<div class="alter_photo">
+						<a href="">修改头像</a>
+					</div>
+				</td>
+				<td class="basic_y">
+					<div class="tips">
+						<p>(支持jpg，jpeg，gif，png格式图片）</p>
+					</div>
+					
+				</td>
+			</tr>
+				<tr>
+					<td class="basic_z">
+						<span>会员昵称:</span>
+					</td>
+					<td class="basic_c">
+						<input type="text" name="userName" id="basic_c_txt" value=""/>
+					</td>
+					<td class="basic_y"></td>
+				</tr>
+				<tr>
+					<td class="basic_z">
+						<span>会员ID:</span>
+					</td>
+					<td class="basic_c">
+						<input type="text" name="userId" id="basic_c_txt" value=""/>
+					</td>
+					<td class="basic_y"></td>
+				</tr>
+				<tr>
+					<td class="basic_z">
+						<span>性别:</span>
+					</td>
+					<td class="basic_c_sex">
+						<input type="radio" name="sex_man" id="sex_button" value="option1" checked="checked"/>男
+						<input type="radio" name="sex_woman" id="sex_button" value="option2" />女
+					</td>
+					<td class="basic_y"></td>
+				</tr>
+				<tr>
+					<td class="basic_z">
+						<span>常用邮箱:</span>
+					</td>
+					<td class="basic_c">
+						<input type="text" name="email" id="basic_c_txt" value=""/>
+					</td>
+					<td class="basic_y"></td>
+				</tr>
+				<tr>
+					<td class="basic_z">
+						<span>常用QQ:</span>
+					</td>
+					<td class="basic_c">
+						<input type="text" name="QQ" id="basic_c_txt" value=""/>
+					</td>
+					<td class="basic_y"></td>
+				</tr>
+				<tr>
+					<td class="basic_z">
+						<span>联系电话:</span>
+					</td>
+					<td class="basic_c">
+						<input type="text" name="iphone" id="basic_c_txt" value=""/>
+					</td>
+					<td class="basic_y"></td>
+				</tr>
+			</table>
+		<div class="tj-btn">
+			<input type="button" value="保&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;存" onclick="" class="Myinfo_save">
+			<input type="reset" value="取&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;消" onclick="" class="Myinfo_reset">
+		</div>
+		</form>
+	</body>
+</html>

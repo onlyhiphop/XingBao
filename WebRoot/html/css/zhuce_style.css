@@ -1,0 +1,155 @@
+*{margin: 0;padding: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;text-decoration: none;list-style: none;
+    list-style-type: none;}
+.wp{width:960px;margin: 0 auto;}
+.z{float:left;}
+.y{float: right;}
+.cl{clear: both;}
+body{font: 14px/24px '微软雅黑' ;
+	background:url(../img/zhuce_bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+.zhuce{
+	height: 500px;
+	width: 900px;
+	margin-left: 420px;
+	margin-top: 100px;
+}
+.zhuce_p{
+	color: white;
+	font-size: 35px;
+	margin-bottom: 30px;
+	line-height: 60px;
+	height: 60px;
+}
+.zhuce form{
+	/*width:700px;*/
+	/*margin:20px 0 0 200px;*/
+}
+.zhuce p{
+	overflow:hidden;
+}
+.zhuce form input{
+	width:203px;
+	line-height:18px;
+	padding:5px;
+	border:1px solid #ccc;
+	margin-top:15px;
+	margin-left: 20px;
+	outline:none;
+	float:left;
+}
+.zhuce label{
+	width:80px;
+	line-height:60px;
+	font-size:16px;
+	text-align:right;
+	margin-right:10px;
+	float:left;
+}
+.zhuce i{
+	margin-left: 10px;
+	display:inline-block;
+}
+.zhuce #userName{
+	color:#ccc;
+}
+
+.zhuce .msg{
+	margin:18px 100px 0 5px;
+	float: left;
+	color:red;
+	/*position:absolute;*/
+}
+/*.zhuce .count,.active{
+	margin-top:-14px;
+	margin-left:90px;
+	visibility:hidden;
+	position:absolute;
+}*/
+.zhuce .active{
+	width: 300px;
+	margin-left: 100px;
+}
+.zhuce .active-state{
+	width:70px;
+	line-height:16px;
+	font-size:12px;
+	color:#fff;
+	text-align:center;
+	background:rgb(255,181,144);
+	margin-left:1px;
+	display:inline-block;
+}
+.yanzhengma{
+	margin-top: 20px;
+	height: 80px;
+}
+
+#code { 
+		font-family:Arial; 
+		font-style:italic; 
+		font-weight:bold; 
+		border:0; 
+		letter-spacing:2px; 
+		color:blue; 
+	} 
+.yanzhengma .x_code_cc{
+	width: 80px;
+	height: 30px;
+	background: white;
+	font-family: "bookman old style";
+	font-size: 16px;
+	border: none;
+}
+.yanzhengma a{
+	color: #0000FF;
+	
+}
+.yanzhengma a:hover{
+	text-decoration: underline;
+	cursor:pointer;
+}
+.yanzhengma span{
+	font-size:16px;
+	margin-top:20px;
+	margin-left: 20px;
+}
+#yanzhengma_false{
+	font-size: 14px;
+	color:red;
+}
+#input{
+	width: 80px;
+	height: 30px;
+	font-size: 15px;
+	margin-left: 20px;
+	line-height: 20px;
+}
+
+.zhuce .submitBtn input{
+	width:200px;
+	line-height:30px;
+	background:rgb(247,81,19);
+	margin-left:110px;
+	margin-top:10px;
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+	border:0px;
+	
+}
+.zhuce .submitBtn input:hover{
+	background-color: #ff5b5b;
+	cursor: pointer;
+}
+.zhuce .ts{
+	background:url(../img/zhuce_right.png) no-repeat;
+	background-size:20px;
+}
+.no{
+	background:url(../img/zhuce_no.jpg) no-repeat 4px 4px;
+}
+.ok{
+	background:url(../img/zhuce_ok.png) no-repeat 5px 5px;
+}
